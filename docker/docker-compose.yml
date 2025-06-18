@@ -26,6 +26,8 @@ services:
     restart: on-failure
     ports:
       - 8080:8080
+    command: sh -c "mkdir -p uploads && ./main"
+
 
   frontend:
     image: pikiha52/csi-fe:v1.0
