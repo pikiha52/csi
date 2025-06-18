@@ -9,7 +9,7 @@ Aplikasi web katalog produk menggunakan **Next.js** (Frontend), **Golang** (Back
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/pikiha52/csi.git
 ```
 
 ### 2. Masuk ke folder `docker`
