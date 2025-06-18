@@ -24,9 +24,11 @@ services:
       - DB_PASSWORD=password
       - DB_PORT=5432
     restart: on-failure
+    ports:
+      - 8080:8080
 
   frontend:
-    image: pikiha52/csi-fe:v1
+    image: pikiha52/csi-fe:v1.0
     ports:
       - '3000:3000'
     environment:
